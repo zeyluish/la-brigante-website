@@ -6,3 +6,21 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #FDE09D;
+}
+
+.btn:hover {
+    background-color: #FDE09D;
+    opacity: 0.8;
+}
+
+.flash-info {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+}
+
