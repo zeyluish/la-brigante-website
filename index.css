@@ -7,20 +7,38 @@ body {
     box-sizing: border-box;
 }
 
-.btn {
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    background-color: #FDE09D;
-}
-
-.btn:hover {
-    background-color: #FDE09D;
-    opacity: 0.8;
-}
-
 .flash-info {
   background-color: #000;
   color: #fff;
   font-size: 14px;
+  text-align: center;
 }
 
+.flash-info button {
+    background-color: #FDE09D;
+    color: #6E4D00;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.navbar-brand img {
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: #6E4D00;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+    color: #6E4D00;
+    /* border-bottom: 3px solid #EE3131; */
+    background-color: #FDE09D;
+    border-radius: 10px;
+}
