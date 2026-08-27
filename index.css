@@ -7,6 +7,10 @@ body {
     box-sizing: border-box;
 }
 
+.logo-la-brigante {
+    border-radius: 10px;
+}
+
 .flash-info {
   background-color: #000;
   color: #fff;
@@ -24,10 +28,6 @@ body {
     width: 100%;
     cursor: pointer;
     padding: 5px 10px;
-}
-
-.navbar-brand img {
-    border-radius: 10px;
 }
 
 .navbar a {
@@ -73,3 +73,38 @@ body {
     border-radius: 10px;
     padding: 2rem;
 } */
+
+footer {
+    background-color: #FDE09D;
+    color: #6E4D00;
+    text-align: center;
+}
+
+.footer-header {
+    font-weight: bold;
+}
+
+.logo-reseaux {
+    width: 30px;
+    height: 30px;
+}
+
+/* footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #6E4D00;
+} */
+
+.copyright-text {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
