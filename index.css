@@ -9,6 +9,8 @@ body {
 
 .logo-la-brigante {
     border-radius: 10px;
+    width: 40px;
+    height: auto;
 }
 
 .flash-info {
@@ -80,8 +82,21 @@ footer {
     text-align: center;
 }
 
-.footer-header {
+footer p {
     font-weight: bold;
+}
+
+footer .liste-reseaux {
+    padding: 0;
+    margin: 0;
+}
+
+footer .liste-reseaux li {
+    list-style-type: none;
+}
+
+footer .liste-reseaux li a {
+    cursor: pointer;
 }
 
 .logo-reseaux {
