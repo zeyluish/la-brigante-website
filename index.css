@@ -32,10 +32,18 @@ body {
     padding: 5px 10px;
 }
 
+.flash-info button:hover {
+    background-color: #fde09ddd;
+}
+
 .navbar a {
     color: #6E4D00;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FF0000;
 }
 
 .navbar-nav .nav-link.active {
@@ -103,13 +111,26 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color: #6E4D00;
     cursor: pointer;
+}
+
+footer .footer-links li a {
+    color: #6E4D00;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+footer .footer-links li a:hover {
+    color: #FF0000;
 }
 
 footer .divider {
     height: 1px;
     background-color: #6E4D00;
+}
+
+footer .legal-links a {
+    font-size: 12px;
 }
 
 .copyright-text {
