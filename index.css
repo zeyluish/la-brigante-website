@@ -84,19 +84,7 @@ footer {
 
 footer p {
     font-weight: bold;
-}
-
-footer .liste-reseaux {
-    padding: 0;
-    margin: 0;
-}
-
-footer .liste-reseaux li {
-    list-style-type: none;
-}
-
-footer .liste-reseaux li a {
-    cursor: pointer;
+    margin-bottom: 0;
 }
 
 .logo-reseaux {
@@ -104,8 +92,9 @@ footer .liste-reseaux li a {
     height: 30px;
 }
 
-/* footer ul {
+footer ul {
     padding: 0;
+    margin: 0;
 }
 
 footer ul li {
@@ -115,7 +104,13 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: #6E4D00;
-} */
+    cursor: pointer;
+}
+
+footer .divider {
+    height: 1px;
+    background-color: #6E4D00;
+}
 
 .copyright-text {
     font-weight: normal;
