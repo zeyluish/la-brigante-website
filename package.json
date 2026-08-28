@@ -1,0 +1,25 @@
+{
+  "name": "la-brigante-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeyluish/la-brigante-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/zeyluish/la-brigante-website/issues"
+  },
+  "homepage": "https://github.com/zeyluish/la-brigante-website#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

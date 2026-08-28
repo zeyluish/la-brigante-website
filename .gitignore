@@ -1,1 +1,12 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
+
+# Autres
+.vscode/
+.idea/
+*.log
 .prettierrc
