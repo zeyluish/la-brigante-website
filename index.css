@@ -7,12 +7,6 @@ body {
     box-sizing: border-box;
 }
 
-.logo-la-brigante {
-    border-radius: 10px;
-    width: 40px;
-    height: auto;
-}
-
 .flash-info {
   background-color: #000;
   color: #fff;
